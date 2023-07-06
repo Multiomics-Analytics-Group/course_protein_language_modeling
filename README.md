@@ -4,6 +4,12 @@
 
 ## References
 
+[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
+
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762) Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin 
+
+[MSA Transformer](https://www.biorxiv.org/content/10.1101/2021.02.12.430858v3)  Roshan Rao, Jason Liu, Robert Verkuil, Joshua Meier, John F. Canny, Pieter Abbeel, Tom Sercu, Alexander Rives
+
 [Large language models generate functional protein sequences across diverse families](https://www.nature.com/articles/s41587-022-01618-2) Ali Madani, Ben Krause, Eric R. Greene, Subu Subramanian, Benjamin P. Mohr, James M. Holton, Jose Luis Olmos Jr., Caiming Xiong, Zachary Z. Sun, Richard Socher, James S. Fraser & Nikhil Naik
 
 [Learning functional properties of proteins with language models](https://www.nature.com/articles/s42256-022-00457-9)Serbulent Unsal, Heval Atas, Muammer Albayrak, Kemal Turhan, Aybar C. Acar & Tunca Doğan
@@ -30,4 +36,17 @@
 
 
 [Protein embeddings improve phage-host interaction prediction](https://www.biorxiv.org/content/10.1101/2023.02.26.530154v1) Mark Edward M. Gonzales, Jennifer C. Ureta,  View ORCID ProfileAnish M.S. Shrestha [github](https://github.com/bioinfodlsu/phage-host-prediction)
+
+
+[ProteinBERT: a universal deep-learning model of protein sequence and function](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274) Nadav Brandes, Dan Ofer, Yam Peleg, Nadav Rappoport, Michal Linial [github](https://github.com/nadavbra/protein_bert)
+
+
+[ProtGPT2 is a deep unsupervised language model for protein design](https://www.nature.com/articles/s41467-022-32007-7) Noelia Ferruz, Steffen Schmidt & Birte Höcker [Hugging Face](https://huggingface.co/nferruz/ProtGPT2?)
+
+
+[Protein-Protein Interaction Prediction is Achievable with Large Language Models](https://www.biorxiv.org/content/10.1101/2023.06.07.544109v1.full) Logan Hallee, Jason P. Gleghorn
+
+[Accurate prediction of virus-host protein-protein interactions via a Siamese neural network using deep protein sequence embeddings](https://www.sciencedirect.com/science/article/pii/S2666389922001568?via%3Dihub) Sumit Madan, Victoria Demina, Marcus Stapf, Oliver Ernst, Holger Fröhlich
+
+[Structure-informed Language Models Are Protein Designers](https://arxiv.org/abs/2302.01649) Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu
 
