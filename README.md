@@ -51,7 +51,7 @@
 [Structure-informed Language Models Are Protein Designers](https://arxiv.org/abs/2302.01649) Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu
 
 
-[Graph-BERT and language model-based framework for protein–protein interaction identification]([https://www.nature.com/articles/s41598-022-12201-9](https://www.nature.com/articles/s41598-023-31612-w)https://www.nature.com/articles/s41598-023-31612-w) Kanchan Jha, Sourav Karmakar & Sriparna Saha
+[Graph-BERT and language model-based framework for protein–protein interaction identification](https://www.nature.com/articles/s41598-023-31612-w) Kanchan Jha, Sourav Karmakar & Sriparna Saha
 
 
 
