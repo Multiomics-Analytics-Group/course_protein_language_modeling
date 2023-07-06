@@ -16,10 +16,18 @@
 
 [Collectively encoding protein properties enriches protein language models](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-05031-z) Jingmin An & Xiaogang Weng
 
-[ProGen: Language Modeling for Protein Generation](https://arxiv.org/abs/2004.03497) Ali Madani, Bryan McCann, Nikhil Naik, Nitish Shirish Keskar, Namrata Anand, Raphael R. Eguchi, Po-Ssu Huang, Richard Socher 
+[ProGen: Language Modeling for Protein Generation](https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2) Ali Madani, Bryan McCann, Nikhil Naik, Nitish Shirish Keskar, Namrata Anand, Raphael R. Eguchi, Po-Ssu Huang, Richard Socher 
 
 [Transformer protein language models are unsupervised structure learners](https://www.biorxiv.org/content/10.1101/2020.12.15.422761v1)  Roshan Rao, Joshua Meier, Tom Sercu, Sergey Ovchinnikov, Alexander Rives
 
 [Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://www.pnas.org/doi/full/10.1073/pnas.2016239118) Alexander Rives, Joshua Meier, Tom Sercu and Rob Fergus
 
 [NetSurfP-3.0: accurate and fast prediction of protein structural features by protein language models and deep learning](https://academic.oup.com/nar/article/50/W1/W510/6596854?) Magnus Haraldson Høie, Erik Nicolas Kiehl, Bent Petersen, Morten Nielsen, Ole Winther, Henrik Nielsen, Jeppe Hallgren, Paolo Marcatili
+
+[Modeling Protein Using Large-scale Pretrain Language Model](https://arxiv.org/abs/2108.07435) Yijia Xiao, Jiezhong Qiu, Ziang Li, Chang-Yu Hsieh, Jie Tang [github](https://github.com/THUDM/ProteinLM)
+
+[Deciphering antibody affinity maturation with language models and weakly supervised learning](https://arxiv.org/abs/2112.07782) Jeffrey A. Ruffolo, Jeffrey J. Gray, Jeremias Sulam [github](https://github.com/dohlee/antiberty-pytorch)
+
+
+[Protein embeddings improve phage-host interaction prediction](https://www.biorxiv.org/content/10.1101/2023.02.26.530154v1) Mark Edward M. Gonzales, Jennifer C. Ureta,  View ORCID ProfileAnish M.S. Shrestha [github](https://github.com/bioinfodlsu/phage-host-prediction)
+
