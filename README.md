@@ -10,6 +10,8 @@
 
 [MSA Transformer](https://www.biorxiv.org/content/10.1101/2021.02.12.430858v3)  Roshan Rao, Jason Liu, Robert Verkuil, Joshua Meier, John F. Canny, Pieter Abbeel, Tom Sercu, Alexander Rives
 
+[Transformer-based deep learning for predicting protein properties in the life sciences](https://elifesciences.org/articles/82819) Abel Chandra, Laura Tünnermann, Tommy Löfstedt, Regina Gratz
+
 [Large language models generate functional protein sequences across diverse families](https://www.nature.com/articles/s41587-022-01618-2) Ali Madani, Ben Krause, Eric R. Greene, Subu Subramanian, Benjamin P. Mohr, James M. Holton, Jose Luis Olmos Jr., Caiming Xiong, Zachary Z. Sun, Richard Socher, James S. Fraser & Nikhil Naik
 
 [Learning functional properties of proteins with language models](https://www.nature.com/articles/s42256-022-00457-9)Serbulent Unsal, Heval Atas, Muammer Albayrak, Kemal Turhan, Aybar C. Acar & Tunca Doğan
