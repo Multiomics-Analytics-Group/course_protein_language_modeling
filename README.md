@@ -134,6 +134,8 @@
 
 30. [Contrastive learning in protein language space predicts interactions between drugs and protein targets](https://www.pnas.org/doi/10.1073/pnas.2220778120) Rohit Singh, Samuel Sledzieski, Bryan Bryson, Bonnie Berger
 
+31. [De novo design of protein structure and function with RFdiffusion](https://www.nature.com/articles/s41586-023-06415-8) Joseph L. Watson, David Juergens, Nathaniel R. Bennett, Brian L. Trippe, Jason Yim, Helen E. Eisenach, Woody Ahern, Andrew J. Borst, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Nikita Hanikel, Samuel J. Pellock, Alexis Courbet, William Sheffler, Jue Wang, Preetham Venkatesh, Isaac Sappington, Susana Vázquez Torres, Anna Lauko, Valentin De Bortoli, Emile Mathieu, Sergey Ovchinnikov, Regina Barzilay, Tommi S. Jaakkola, Frank DiMaio, Minkyung Baek & David Baker
+
 ## Other Resources
 ----
 - [Protein Language Workshop](https://github.com/dimiboeckaerts/ProteinLanguageWorkshop)
