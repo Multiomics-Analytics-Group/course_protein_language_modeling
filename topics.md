@@ -11,7 +11,7 @@
 
    Analyzing the amino acid sequence of a protein, including aligning sequences, identifying patterns, and utilizing databases and resources to gain insights into protein function and evolution.
    
-**3. Protein Structure Prediction**
+**3. Protein Structure**
    
    Predicting the three-dimensional structure of a protein using computational methods, including homology modeling, comparative modeling, and de novo structure prediction.
    
