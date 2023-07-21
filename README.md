@@ -21,7 +21,7 @@
 |              | **Sequence Analysis**       | [Seq. Analysis Notebook]()   | [description](seq_analysis.ipynb) |
 |              | **Training a model**        | [Model Training Notebook](model_training.ipynb)  | [description]() |
 |              | **Working with Embeddings** | [Embeddings Notebook]()      | [description](embeddings.ipynb) |
-|              | **Predictions**             | [pML Predictions Notebook](predictions.ipynb) | [description]() |
+|              | **Predictions**             | [pML Predictions Notebook](prediction.ipynb) | [description]() |
 |              | **Protein Design**          | [Protein Design Notebook](prot_design.ipynb)  | [description]() |
 
 ## References
