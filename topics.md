@@ -26,8 +26,12 @@
 **6. Protein Function Prediction and Annotation:**
    
    Inferring the function of a protein based on its sequence or structure, utilizing computational methods to predict and annotate protein functions, including predicting protein-protein interactions.
+
+**7. Data Resources:**
+   
+   A description of resources that contain relevant protein data that can be used in ML models.
     
-**7. Machine Learning and Deep Learning for Protein Language Modeling:**
+**8. Machine Learning and Deep Learning for Protein Language Modeling:**
    
    Leveraging machine learning and deep learning algorithms to model and analyze protein sequences and structures, enabling tasks such as sequence generation, structure prediction, and function annotation.
     
