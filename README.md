@@ -18,11 +18,11 @@
 |--------------|-------------------------|------------------------------|-----------------|
 |              | [Topics](topics.md)     | [slides]()                   |                 |
 | **Hands-on** |                         |                              |                 |
-|              | **Sequence Analysis**       | [Seq. Analysis Notebook]()   | [description]() |
-|              | **Training a model**        | [Model Training Notebook]()  | [description]() |
-|              | **Working with Embeddings** | [Embeddings Notebook]()      | [description]() |
-|              | **Predictions**             | [pML Predictions Notebook]() | [description]() |
-|              | **Protein Design**          | [Protein Design Notebook]()  | [description]() |
+|              | **Sequence Analysis**       | [Seq. Analysis Notebook]()   | [description](seq_analysis.ipynb) |
+|              | **Training a model**        | [Model Training Notebook](model_training.ipynb)  | [description]() |
+|              | **Working with Embeddings** | [Embeddings Notebook]()      | [description](embeddings.ipynb) |
+|              | **Predictions**             | [pML Predictions Notebook](predictions.ipynb) | [description]() |
+|              | **Protein Design**          | [Protein Design Notebook](prot_design.ipynb)  | [description]() |
 
 ## References
 ----
