@@ -72,6 +72,8 @@
 
 32. [Single-sequence protein structure prediction using a language model and deep learning](https://www.nature.com/articles/s41587-022-01432-w) Ratul Chowdhury, Nazim Bouatta, Surojit Biswas, Christina Floristean, Anant Kharkar, Koushik Roy, Charlotte Rochereau, Gustaf Ahdritz, Joanna Zhang, George M. Church, Peter K. Sorger & Mohammed AlQuraishi
 
+33. [Before and after AlphaFold2: An overview of protein structure prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10011655/) Letícia M. F. Bertoline, Angélica N. Lima, Jose E. Krieger, and Samantha K. Teixeira
+
 ## Other Resources
 ----
 - [Protein Language Workshop](https://github.com/dimiboeckaerts/ProteinLanguageWorkshop)
