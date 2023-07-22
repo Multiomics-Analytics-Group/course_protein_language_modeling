@@ -1,4 +1,4 @@
-# Protein Language Modeling Course
+<h1 align="center">Protein Language Modeling Course</h1>
 
 ![logo_small](https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling/assets/1425851/1c689ca0-ffc4-4d13-b7bf-673520ae46bb)
 
