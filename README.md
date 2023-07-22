@@ -1,5 +1,6 @@
 # Protein Language Modeling Course
-![Generated with Bing Image Creator](https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling/assets/1425851/0bf5d180-acef-4a78-a125-44aa19f3e570)
+
+![logo_small](https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling/assets/1425851/1c689ca0-ffc4-4d13-b7bf-673520ae46bb)
 
 ----
 
