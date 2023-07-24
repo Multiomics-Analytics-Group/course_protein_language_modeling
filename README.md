@@ -91,6 +91,8 @@
 
 33. [Before and after AlphaFold2: An overview of protein structure prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10011655/) Letícia M. F. Bertoline, Angélica N. Lima, Jose E. Krieger, and Samantha K. Teixeira
 
+34. [Evaluating Protein Transfer Learning with TAPE](https://arxiv.org/abs/1906.08230) Roshan Rao, Nicholas Bhattacharya, Neil Thomas, Yan Duan, Xi Chen, John Canny, Pieter Abbeel, Yun S. Song
+
 ## Other Resources
 ----
 - [Protein Language Workshop](https://github.com/dimiboeckaerts/ProteinLanguageWorkshop)
