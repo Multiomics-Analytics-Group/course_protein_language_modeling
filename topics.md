@@ -7,7 +7,7 @@
 
    What are they and why are they important.
    
-**2. Protein Language: Sequences**
+**2. The Language of Proteins: Sequences**
 
    Analyzing the amino acid sequence of a protein, including aligning sequences, identifying patterns, and utilizing databases and resources to gain insights into protein function and evolution.
    
@@ -15,7 +15,7 @@
    
    Predicting the three-dimensional structure of a protein using computational methods, including homology modeling, comparative modeling, and de novo structure prediction.
    
-**4. Protein-Protein Interactions and Docking**
+**4. Protein-Protein Interactions**
    
    Exploring how proteins interact with each other, including computational techniques for predicting and analyzing protein-protein interactions, as well as docking algorithms for simulating their binding.
     
@@ -35,7 +35,7 @@
    
    Leveraging machine learning and deep learning algorithms to model and analyze protein sequences and structures, enabling tasks such as sequence generation, structure prediction, and function annotation.
     
-**9. Applications of Protein Language Modeling**
+**9. Applications of Protein Language Models**
    
    Exploring real-world applications of protein language modeling, including refining and improving protein structures, predicting protein-protein interactions, facilitating drug discovery, and aiding protein engineering and design.
     
