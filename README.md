@@ -4,15 +4,11 @@
 
 ----
 
-1. [Topics](#topics)
+1. [Topics](topics.md)
 2. [Course Structure](#course-structure)
 3. [References](#references)
 4. [Resources](#other-resources)
 
-
-## Topics
-----
-[List of topics](topics.md)
 
 ## Course Structure
 
