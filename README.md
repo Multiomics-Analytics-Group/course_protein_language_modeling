@@ -125,4 +125,6 @@
 
 - [Training the Transformer Model](https://machinelearningmastery.com/training-the-transformer-model/)
 
+- [GearNet: Geometry-Aware Relational Graph Neural Network](https://github.com/DeepGraphLearning/GearNet)
+
 
