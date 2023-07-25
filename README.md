@@ -93,6 +93,13 @@
 
 34. [Evaluating Protein Transfer Learning with TAPE](https://arxiv.org/abs/1906.08230) Roshan Rao, Nicholas Bhattacharya, Neil Thomas, Yan Duan, Xi Chen, John Canny, Pieter Abbeel, Yun S. Song
 
+35. [FLIP: Benchmark tasks in fitness landscape inference for proteins](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang
+
+36. [Standards, tooling and benchmarks to probe representation learning on proteins](https://openreview.net/forum?id=adODyN-eeJ8) Joaquin Gomez Sanchez, Sebastian Franz, Michael Heinzinger, Burkhard Rost, Christian Dallago
+
+37. [Learning meaningful representations of protein sequences](https://www.nature.com/articles/s41467-022-29443-w) Nicki Skafte Detlefsen, Søren Hauberg & Wouter Boomsma
+
+
 ## Other Resources
 ----
 - [Protein Language Workshop](https://github.com/dimiboeckaerts/ProteinLanguageWorkshop)
