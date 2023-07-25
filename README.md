@@ -101,6 +101,8 @@
 
 38. [Language modelling for biological sequences – curated datasets and baselines](https://www.biorxiv.org/content/10.1101/2020.03.09.983585v1) Jose Juan Almagro Armenteros, Alexander Rosenberg Johansen, Ole Winther, Henrik Nielsen
 
+39. [Language models generalize beyond natural proteins](https://www.biorxiv.org/content/10.1101/2022.12.21.521521v1) Robert Verkuil, Ori Kabeli, Yilun Du, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, David Baker, Sergey Ovchinnikov, Tom Sercu, Alexander Rives
+
 
 ## Other Resources
 ----
