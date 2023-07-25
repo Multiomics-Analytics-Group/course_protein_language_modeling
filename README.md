@@ -121,4 +121,6 @@
 
 - [Huggingface Protein Language Modeling - tensorflow](https://github.com/huggingface/notebooks/blob/main/examples/protein_language_modeling-tf.ipynb)
 
+- [Building a Text Generation Model from Scratch](https://wingedsheep.com/building-a-language-model/) 
+
 
