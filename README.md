@@ -134,4 +134,6 @@
 
 - [GearNet: Geometry-Aware Relational Graph Neural Network](https://github.com/DeepGraphLearning/GearNet)
 
+- [UniLanguage](https://github.com/alrojo/UniLanguage)
+
 
