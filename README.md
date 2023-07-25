@@ -99,6 +99,8 @@
 
 37. [Learning meaningful representations of protein sequences](https://www.nature.com/articles/s41467-022-29443-w) Nicki Skafte Detlefsen, Søren Hauberg & Wouter Boomsma
 
+38. [Language modelling for biological sequences – curated datasets and baselines](https://www.biorxiv.org/content/10.1101/2020.03.09.983585v1) Jose Juan Almagro Armenteros, Alexander Rosenberg Johansen, Ole Winther, Henrik Nielsen
+
 
 ## Other Resources
 ----
