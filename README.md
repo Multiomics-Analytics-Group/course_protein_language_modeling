@@ -1,6 +1,6 @@
 <h1 align="center">Protein Language Modeling Course</h1>
 
-![logo_small](https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling/img/logo_small.gif)
+![logo_small](https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling/blob/main/img/logo_small.gif)
 
 ----
 
