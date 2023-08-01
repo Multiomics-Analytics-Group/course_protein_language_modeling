@@ -106,6 +106,8 @@
 
 40. [ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction](https://arxiv.org/abs/2010.09885) Seyone Chithrananda, Gabriel Grand, Bharath Ramsundar
 
+41. [SETH predicts nuances of residue disorder from protein embeddings](https://www.frontiersin.org/articles/10.3389/fbinf.2022.1019597/full) Dagmar Ilzhöfer, Michael Heinzinger, Burkhard Rost
+
 
 ## Other Resources
 ----
@@ -142,5 +144,7 @@
 - [GearNet: Geometry-Aware Relational Graph Neural Network](https://github.com/DeepGraphLearning/GearNet)
 
 - [UniLanguage](https://github.com/alrojo/UniLanguage)
+
+- [SETH](https://github.com/DagmarIlz/SETH)
 
 
