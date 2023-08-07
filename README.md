@@ -108,6 +108,8 @@
 
 41. [SETH predicts nuances of residue disorder from protein embeddings](https://www.frontiersin.org/articles/10.3389/fbinf.2022.1019597/full) Dagmar Ilzhöfer, Michael Heinzinger, Burkhard Rost
 
+42. [Exploiting pretrained biochemical language models for targeted drug design](https://academic.oup.com/bioinformatics/article/38/Supplement_2/ii155/6702010) Gökçe Uludoğan, Elif Ozkirimli, Kutlu O Ulgen, Nilgün Karalı, Arzucan Özgür
+
 
 ## Other Resources
 ----
