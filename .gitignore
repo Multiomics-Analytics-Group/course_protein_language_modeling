@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 .DS_Store
 *.ent
+notebooks/esm2_t12_35M_UR50D-finetuned-localization/*
