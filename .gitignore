@@ -159,3 +159,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_Store
+*.ent
+notebooks/esm2_t12_35M_UR50D-finetuned-localization/*
+*.fasta
+*.pdb
+*.h5.zip
+*.h5
+*.fa
+*.aln

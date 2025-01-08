@@ -1,0 +1,11 @@
+services:
+  jupyter:
+    container_name: jupyter
+    build:
+      context: ${DOCKER_VOLUME_DIRECTORY:-.}
+      dockerfile: ${DOCKER_VOLUME_DIRECTORY:-.}/Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/notebooks:/app
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/data:/app/data
