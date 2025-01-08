@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "course-protein-language-modeling"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = {extras = ["torch"], version = "^4.47.1"}
+datasets = "^3.2.0"
+evaluate = "^0.4.3"
+biopython = "^1.84"
+py3dmol = "^2.4.2"
+pymsaviz = "^0.5.0"
+ipykernel = "^6.29.5"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.0"
+sentencepiece = "^0.2.0"
+h5py = "^3.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
