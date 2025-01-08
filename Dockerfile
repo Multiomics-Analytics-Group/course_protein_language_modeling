@@ -5,6 +5,7 @@ FROM python:3.11
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 RUN apt-get update && apt-get install nano
+RUN apt-get install muscle
 
 # also in case...
 RUN pip install --no-cache-dir jupyterlab
