@@ -162,3 +162,8 @@ cython_debug/
 *.ent
 notebooks/esm2_t12_35M_UR50D-finetuned-localization/*
 *.fasta
+*.pdb
+*.h5.zip
+*.h5
+*.fa
+*.aln
