@@ -7538,10 +7538,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install "transformers[torch]" sentencepiece h5py biopython &gt; /dev/null</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># uncomment the below to install dependencies for colab</span>
+<span class="c1">#!pip install "transformers[torch]" sentencepiece h5py biopython &gt; /dev/null</span>
 </pre></div>
 </div>
 </div>
@@ -7609,12 +7610,12 @@ If you are running in Google Colab, change the Notebook settings to use `GPU`.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e520014b-391d-41b0-ad62-7d51f56511b8">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e520014b-391d-41b0-ad62-7d51f56511b8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Set up working directories and download files/checkpoints </span>
@@ -7626,29 +7627,12 @@ If you are running in Google Colab, change the Notebook settings to use `GPU`.
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>mkdir: cannot create directory ‘protT5’: File exists
-mkdir: cannot create directory ‘protT5/output’: File exists
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 1719k  100 1719k    0     0  3634k      0 --:--:-- --:--:-- --:--:-- 3628k
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bcfc1b48-24d6-4d6f-86aa-9d3048a6d1d0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=bcfc1b48-24d6-4d6f-86aa-9d3048a6d1d0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Import dependencies</span>
@@ -7670,25 +7654,12 @@ mkdir: cannot create directory ‘protT5/output’: File exists
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Using cpu
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=009ac9f9-b169-4696-abf6-a1c0a3ef8edf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">read_fasta</span><span class="p">(</span><span class="n">fasta_path</span><span class="p">:</span><span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
@@ -7716,33 +7687,17 @@ mkdir: cannot create directory ‘protT5/output’: File exists
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3aa98336-a298-4f5f-87b6-98718ec5e22f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3aa98336-a298-4f5f-87b6-98718ec5e22f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># read in file</span>
 <span class="n">fasta_output</span> <span class="o">=</span> <span class="n">read_fasta</span><span class="p">(</span><span class="n">seq_path</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Read 5397 sequences.
-Example:
-Key: 0|beta-lactamase_P20P|1.581033423
-Value: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW
-</pre>
 </div>
 </div>
 </div>
@@ -7797,7 +7752,7 @@ Value: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVL
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Load ProtT5 in half-precision (more specifically: the encoder-part of ProtT5-XL-U50) </span>
@@ -7834,60 +7789,17 @@ Value: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVL
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5282b4cc-36f4-4c70-93f2-5fb32a67f6b9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5282b4cc-36f4-4c70-93f2-5fb32a67f6b9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># loading model</span>
 <span class="n">model</span><span class="p">,</span> <span class="n">tokenizer</span> <span class="o">=</span> <span class="n">get_T5_model</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>config.json:   0%|          | 0.00/656 [00:00&lt;?, ?B/s]</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>pytorch_model.bin:   0%|          | 0.00/2.42G [00:00&lt;?, ?B/s]</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>tokenizer_config.json:   0%|          | 0.00/25.0 [00:00&lt;?, ?B/s]</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>spiece.model:   0%|          | 0.00/238k [00:00&lt;?, ?B/s]</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>special_tokens_map.json:   0%|          | 0.00/1.79k [00:00&lt;?, ?B/s]</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>You are using the default legacy behaviour of the &lt;class 'transformers.models.t5.tokenization_t5.T5Tokenizer'&gt;. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
-</pre>
 </div>
 </div>
 </div>
@@ -7908,7 +7820,7 @@ Value: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVL
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">get_embeddings</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">tokenizer</span><span class="p">,</span> <span class="n">seqs</span><span class="p">,</span> <span class="n">max_seq_len</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">max_batch</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
@@ -8031,357 +7943,17 @@ Value: MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVL
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6f4097b1-8da4-4cd7-9be1-4caf817294ab">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6f4097b1-8da4-4cd7-9be1-4caf817294ab">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Compute embeddings</span>
 <span class="n">results</span> <span class="o">=</span> <span class="n">get_embeddings</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">tokenizer</span><span class="p">,</span> <span class="n">fasta_output</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Currently, embedding 0|beta-lactamase_P20P|1.581033423
-Currently, embedding 1|beta-lactamase_D207D|1.42563125
-Currently, embedding 2|beta-lactamase_A215A|1.422813331
-Currently, embedding 3|beta-lactamase_C75C|1.4155315119999998
-Currently, embedding 4|beta-lactamase_N134N|1.39696596
-Currently, embedding 5|beta-lactamase_L137L|1.355533136
-Currently, embedding 6|beta-lactamase_L28L|1.3516090040000002
-Currently, embedding 7|beta-lactamase_L199L|1.3516090040000002
-Currently, embedding 8|beta-lactamase_F149F|1.32191175
-Currently, embedding 9|beta-lactamase_A200A|1.295473865
-Currently, embedding 10|beta-lactamase_E210E|1.29406548
-Currently, embedding 11|beta-lactamase_H24H|1.282201552
-Currently, embedding 12|beta-lactamase_L19L|1.280029666
-Currently, embedding 13|beta-lactamase_A183A|1.279505214
-Currently, embedding 14|beta-lactamase_T27T|1.248455477
-Currently, embedding 15|beta-lactamase_L38L|1.245034082
-Currently, embedding 16|beta-lactamase_I229I|1.23953749
-Currently, embedding 17|beta-lactamase_R118R|1.23855076
-Currently, embedding 18|beta-lactamase_V214V|1.238463943
-Currently, embedding 19|beta-lactamase_P143P|1.237482227
-Currently, embedding 20|beta-lactamase_E175E|1.237061839
-Currently, embedding 21|beta-lactamase_Y103Y|1.236680537
-Currently, embedding 22|beta-lactamase_Q37Q|1.228947143
-Currently, embedding 23|beta-lactamase_G142G|1.223102353
-Currently, embedding 24|beta-lactamase_T126T|1.213890987
-Currently, embedding 25|beta-lactamase_R63R|1.210016568
-Currently, embedding 26|beta-lactamase_L223L|1.209258797
-Currently, embedding 27|beta-lactamase_K232K|1.204146451
-Currently, embedding 28|beta-lactamase_V117V|1.204146451
-Currently, embedding 29|beta-lactamase_A133A|1.204146451
-Currently, embedding 30|beta-lactamase_A170A|1.204146451
-Currently, embedding 31|beta-lactamase_G114G|1.204146451
-Currently, embedding 32|beta-lactamase_A123A|1.200392214
-Currently, embedding 33|beta-lactamase_Q204Q|1.199645504
-Currently, embedding 34|beta-lactamase_G234G|1.195860291
-Currently, embedding 35|beta-lactamase_L146L|1.19545104
-Currently, embedding 36|beta-lactamase_V101V|1.195300092
-Currently, embedding 37|beta-lactamase_G90G|1.189841882
-Currently, embedding 38|beta-lactamase_P224P|1.189627145
-Currently, embedding 39|beta-lactamase_G154G|1.181999031
-Currently, embedding 40|beta-lactamase_A225A|1.179258391
-Currently, embedding 41|beta-lactamase_T193T|1.16875245
-Currently, embedding 42|beta-lactamase_T179T|1.167976192
-Currently, embedding 43|beta-lactamase_I140I|1.165260346
-Currently, embedding 44|beta-lactamase_A185A|1.165092705
-Currently, embedding 45|beta-lactamase_D113D|1.158658061
-Currently, embedding 46|beta-lactamase_S128S|1.1574785159999998
-Currently, embedding 47|beta-lactamase_E61E|1.15497924
-Currently, embedding 48|beta-lactamase_A222A|1.154938626
-Currently, embedding 49|beta-lactamase_P181P|1.153655812
-Currently, embedding 50|beta-lactamase_A246A|1.150079227
-Currently, embedding 51|beta-lactamase_R176R|1.149113002
-Currently, embedding 52|beta-lactamase_V29V|1.142534117
-Currently, embedding 53|beta-lactamase_R189R|1.142419155
-Currently, embedding 54|beta-lactamase_F58N|1.142207789
-Currently, embedding 55|beta-lactamase_G43G|1.141336861
-Currently, embedding 56|beta-lactamase_D155D|1.140947862
-Currently, embedding 57|beta-lactamase_R92R|1.137335478
-Currently, embedding 58|beta-lactamase_L49L|1.135457842
-Currently, embedding 59|beta-lactamase_P217P|1.13381469
-Currently, embedding 60|beta-lactamase_A132A|1.132707897
-Currently, embedding 61|beta-lactamase_E56E|1.131946574
-Currently, embedding 62|beta-lactamase_A23A|1.126812329
-Currently, embedding 63|beta-lactamase_L10L|1.123508365
-Currently, embedding 64|beta-lactamase_T116T|1.122479724
-Currently, embedding 65|beta-lactamase_N173N|1.1186516640000002
-Currently, embedding 66|beta-lactamase_G76G|1.117741507
-Currently, embedding 67|beta-lactamase_H151H|1.112657025
-Currently, embedding 68|beta-lactamase_E166E|1.109622262
-Currently, embedding 69|beta-lactamase_A182A|1.109467777
-Currently, embedding 70|beta-lactamase_N168N|1.109437862
-Currently, embedding 71|beta-lactamase_T112T|1.106795641
-Currently, embedding 72|beta-lactamase_R220R|1.102208855
-Currently, embedding 73|beta-lactamase_R273R|1.10144642
-Currently, embedding 74|beta-lactamase_G52G|1.100669144
-Currently, embedding 75|beta-lactamase_F58F|1.100669144
-Currently, embedding 76|beta-lactamase_Q88Q|1.100123891
-Currently, embedding 77|beta-lactamase_L19W|1.094952121
-Currently, embedding 78|beta-lactamase_T186T|1.0924468040000002
-Currently, embedding 79|beta-lactamase_S122S|1.092373772
-Currently, embedding 80|beta-lactamase_V8V|1.092009091
-Currently, embedding 81|beta-lactamase_T178T|1.090003575
-Currently, embedding 82|beta-lactamase_A40A|1.088883695
-Currently, embedding 83|beta-lactamase_D177D|1.086631569
-Currently, embedding 84|beta-lactamase_D174D|1.084439673
-Currently, embedding 85|beta-lactamase_V72V|1.082104419
-Currently, embedding 86|beta-lactamase_D83D|1.08160189
-Currently, embedding 87|beta-lactamase_T139T|1.078124752
-Currently, embedding 88|beta-lactamase_K190K|1.077426092
-Currently, embedding 89|beta-lactamase_L205L|1.07521716
-Currently, embedding 90|beta-lactamase_I45I|1.07460435
-Currently, embedding 91|beta-lactamase_A15Y|1.072458669
-Currently, embedding 92|beta-lactamase_T187T|1.072082887
-Currently, embedding 93|beta-lactamase_F64F|1.070829876
-Currently, embedding 94|beta-lactamase_R202R|1.070247723
-Currently, embedding 95|beta-lactamase_I171I|1.069139543
-Currently, embedding 96|beta-lactamase_I244I|1.06740524
-Currently, embedding 97|beta-lactamase_A182M|1.067029036
-Currently, embedding 98|beta-lactamase_S281F|1.067029036
-Currently, embedding 99|beta-lactamase_V157K|1.067029036
-Currently, embedding 100|beta-lactamase_A148M|1.067029036
-Currently, embedding 101|beta-lactamase_T186C|1.067029036
-Currently, embedding 102|beta-lactamase_T186W|1.067029036
-Currently, embedding 103|beta-lactamase_S51D|1.067029036
-Currently, embedding 104|beta-lactamase_L196N|1.067029036
-Currently, embedding 105|beta-lactamase_N98Q|1.067029036
-Currently, embedding 106|beta-lactamase_K109Y|1.067029036
-Currently, embedding 107|beta-lactamase_A16M|1.067029036
-Currently, embedding 108|beta-lactamase_L19Q|1.065112695
-Currently, embedding 109|beta-lactamase_L19A|1.064585721
-Currently, embedding 110|beta-lactamase_V8S|1.062300049
-Currently, embedding 111|beta-lactamase_Y103W|1.0618851740000002
-Currently, embedding 112|beta-lactamase_N50N|1.061565115
-Currently, embedding 113|beta-lactamase_T262Y|1.060920749
-Currently, embedding 114|beta-lactamase_I206I|1.05990302
-Currently, embedding 115|beta-lactamase_K190D|1.0596529609999998
-Currently, embedding 116|beta-lactamase_F6F|1.059540238
-Currently, embedding 117|beta-lactamase_T112Q|1.059511151
-Currently, embedding 118|beta-lactamase_P172P|1.05927624
-Currently, embedding 119|beta-lactamase_P65P|1.058995065
-Currently, embedding 120|beta-lactamase_S122M|1.058884685
-Currently, embedding 121|beta-lactamase_A211D|1.058530502
-Currently, embedding 122|beta-lactamase_V29N|1.055182672
-Currently, embedding 123|beta-lactamase_Q274T|1.054812461
-Currently, embedding 124|beta-lactamase_L196K|1.054812461
-Currently, embedding 125|beta-lactamase_L19K|1.054812461
-Currently, embedding 126|beta-lactamase_L160L|1.053874348
-Currently, embedding 127|beta-lactamase_I171N|1.053548681
-Currently, embedding 128|beta-lactamase_L199I|1.05306725
-Currently, embedding 129|beta-lactamase_Q97F|1.05306725
-Currently, embedding 130|beta-lactamase_Y44Y|1.052278813
-Currently, embedding 131|beta-lactamase_C121C|1.0517263890000002
-Currently, embedding 132|beta-lactamase_L19C|1.051597547
-Currently, embedding 133|beta-lactamase_V29W|1.050740237
-Currently, embedding 134|beta-lactamase_L192L|1.050530784
-Currently, embedding 135|beta-lactamase_S233S|1.048897879
-Currently, embedding 136|beta-lactamase_Q97Y|1.048704173
-Currently, embedding 137|beta-lactamase_F13M|1.048704173
-Currently, embedding 138|beta-lactamase_V8Y|1.048113086
-Currently, embedding 139|beta-lactamase_P60D|1.048065979
-Currently, embedding 140|beta-lactamase_A280M|1.047482516
-Currently, embedding 141|beta-lactamase_D33T|1.047482516
-Currently, embedding 142|beta-lactamase_L196Q|1.047482516
-Currently, embedding 143|beta-lactamase_A225M|1.047482516
-Currently, embedding 144|beta-lactamase_H156I|1.047482516
-Currently, embedding 145|beta-lactamase_H24N|1.047482516
-Currently, embedding 146|beta-lactamase_L47L|1.04717842
-Currently, embedding 147|beta-lactamase_A15T|1.04666811
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In[9], line 2</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span style="color: rgb(95,135,135)"># Compute embeddings</span>
-<span class="ansi-green-fg">----&gt; 2</span> results <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">get_embeddings</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">model</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">tokenizer</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">fasta_output</span><span class="ansi-yellow-bg">)</span>
-
-Cell <span class="ansi-green-fg">In[8], line 68</span>, in <span class="ansi-cyan-fg">get_embeddings</span><span class="ansi-blue-fg">(model, tokenizer, seqs, max_seq_len, max_batch)</span>
-<span class="ansi-green-intense-fg ansi-bold">     66</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-intense-fg ansi-bold">     67</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> torch<span style="color: rgb(98,98,98)">.</span>no_grad():
-<span class="ansi-green-fg">---&gt; 68</span>         embedding_repr <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">model</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">input_ids</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">attention_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">attention_mask</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     69</span>         <span style="color: rgb(95,135,135)"># verbosity for progress tracking</span>
-<span class="ansi-green-intense-fg ansi-bold">     70</span>         <span style="color: rgb(0,135,0)">print</span>(<span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">Currently, embedding </span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>pdb_id<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">'</span>)
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/transformers/models/t5/modeling_t5.py:2086</span>, in <span class="ansi-cyan-fg">T5EncoderModel.forward</span><span class="ansi-blue-fg">(self, input_ids, attention_mask, head_mask, inputs_embeds, output_attentions, output_hidden_states, return_dict)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2068</span> <span style="color: rgb(175,0,0)">r</span><span style="color: rgb(175,0,0)">"""</span>
-<span class="ansi-green-intense-fg ansi-bold">   2069</span> <span style="color: rgb(175,0,0)">Returns:</span>
-<span class="ansi-green-intense-fg ansi-bold">   2070</span> 
-<span class="ansi-green-fg">   (...)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2082</span> <span style="color: rgb(175,0,0)">&gt;&gt;&gt; last_hidden_states = outputs.last_hidden_state</span>
-<span class="ansi-green-intense-fg ansi-bold">   2083</span> <span style="color: rgb(175,0,0)">```"""</span>
-<span class="ansi-green-intense-fg ansi-bold">   2084</span> return_dict <span style="color: rgb(98,98,98)">=</span> return_dict <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> return_dict <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>config<span style="color: rgb(98,98,98)">.</span>use_return_dict
-<span class="ansi-green-fg">-&gt; 2086</span> encoder_outputs <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">encoder</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-intense-fg ansi-bold">   2087</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">input_ids</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">input_ids</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2088</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">attention_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">attention_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2089</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">inputs_embeds</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">inputs_embeds</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2090</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">head_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">head_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2091</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">output_attentions</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">output_attentions</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2092</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">output_hidden_states</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">output_hidden_states</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2093</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">return_dict</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">return_dict</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2094</span> <span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2096</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> encoder_outputs
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/transformers/models/t5/modeling_t5.py:1124</span>, in <span class="ansi-cyan-fg">T5Stack.forward</span><span class="ansi-blue-fg">(self, input_ids, attention_mask, encoder_hidden_states, encoder_attention_mask, inputs_embeds, head_mask, cross_attn_head_mask, past_key_values, use_cache, output_attentions, output_hidden_states, return_dict, cache_position)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1107</span>     layer_outputs <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_gradient_checkpointing_func(
-<span class="ansi-green-intense-fg ansi-bold">   1108</span>         layer_module<span style="color: rgb(98,98,98)">.</span>forward,
-<span class="ansi-green-intense-fg ansi-bold">   1109</span>         hidden_states,
-<span class="ansi-green-fg">   (...)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1121</span>         cache_position,
-<span class="ansi-green-intense-fg ansi-bold">   1122</span>     )
-<span class="ansi-green-intense-fg ansi-bold">   1123</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1124</span>     layer_outputs <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">layer_module</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-intense-fg ansi-bold">   1125</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">hidden_states</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1126</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">attention_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">causal_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1127</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">position_bias</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">position_bias</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1128</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">encoder_hidden_states</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">encoder_hidden_states</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1129</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">encoder_attention_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">encoder_extended_attention_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1130</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">encoder_decoder_position_bias</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">encoder_decoder_position_bias</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1131</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">layer_head_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">layer_head_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1132</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">cross_attn_layer_head_mask</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">cross_attn_layer_head_mask</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1133</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">past_key_value</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">past_key_values</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1134</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">use_cache</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">use_cache</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1135</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">output_attentions</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">output_attentions</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1136</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">return_dict</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">return_dict</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1137</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">cache_position</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">cache_position</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   1138</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1140</span> <span style="color: rgb(95,135,135)"># layer_outputs is a tuple with:</span>
-<span class="ansi-green-intense-fg ansi-bold">   1141</span> <span style="color: rgb(95,135,135)"># hidden-states, key-value-states, (self-attention position bias), (self-attention weights), (cross-attention position bias), (cross-attention weights)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1142</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> use_cache <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(0,135,0)">False</span>:
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/transformers/models/t5/modeling_t5.py:725</span>, in <span class="ansi-cyan-fg">T5Block.forward</span><span class="ansi-blue-fg">(self, hidden_states, attention_mask, position_bias, encoder_hidden_states, encoder_attention_mask, encoder_decoder_position_bias, layer_head_mask, cross_attn_layer_head_mask, past_key_value, use_cache, output_attentions, return_dict, cache_position)</span>
-<span class="ansi-green-intense-fg ansi-bold">    722</span>     attention_outputs <span style="color: rgb(98,98,98)">=</span> attention_outputs <span style="color: rgb(98,98,98)">+</span> cross_attention_outputs[<span style="color: rgb(98,98,98)">2</span>:]
-<span class="ansi-green-intense-fg ansi-bold">    724</span> <span style="color: rgb(95,135,135)"># Apply Feed Forward layer</span>
-<span class="ansi-green-fg">--&gt; 725</span> hidden_states <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">layer</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">-</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">1</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">hidden_states</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    727</span> <span style="color: rgb(95,135,135)"># clamp inf values to enable fp16 training</span>
-<span class="ansi-green-intense-fg ansi-bold">    728</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> hidden_states<span style="color: rgb(98,98,98)">.</span>dtype <span style="color: rgb(98,98,98)">==</span> torch<span style="color: rgb(98,98,98)">.</span>float16:
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/transformers/models/t5/modeling_t5.py:339</span>, in <span class="ansi-cyan-fg">T5LayerFF.forward</span><span class="ansi-blue-fg">(self, hidden_states)</span>
-<span class="ansi-green-intense-fg ansi-bold">    337</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span><span style="color: rgb(188,188,188)"> </span><span style="color: rgb(0,0,255)">forward</span>(<span style="color: rgb(0,135,0)">self</span>, hidden_states):
-<span class="ansi-green-intense-fg ansi-bold">    338</span>     forwarded_states <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>layer_norm(hidden_states)
-<span class="ansi-green-fg">--&gt; 339</span>     forwarded_states <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">DenseReluDense</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">forwarded_states</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    340</span>     hidden_states <span style="color: rgb(98,98,98)">=</span> hidden_states <span style="color: rgb(98,98,98)">+</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>dropout(forwarded_states)
-<span class="ansi-green-intense-fg ansi-bold">    341</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> hidden_states
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/transformers/models/t5/modeling_t5.py:284</span>, in <span class="ansi-cyan-fg">T5DenseActDense.forward</span><span class="ansi-blue-fg">(self, hidden_states)</span>
-<span class="ansi-green-intense-fg ansi-bold">    283</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span><span style="color: rgb(188,188,188)"> </span><span style="color: rgb(0,0,255)">forward</span>(<span style="color: rgb(0,135,0)">self</span>, hidden_states):
-<span class="ansi-green-fg">--&gt; 284</span>     hidden_states <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">wi</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">hidden_states</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    285</span>     hidden_states <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>act(hidden_states)
-<span class="ansi-green-intense-fg ansi-bold">    286</span>     hidden_states <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>dropout(hidden_states)
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1736</span>, in <span class="ansi-cyan-fg">Module._wrapped_call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1734</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_compiled_call_impl(<span style="color: rgb(98,98,98)">*</span>args, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs)  <span style="color: rgb(95,135,135)"># type: ignore[misc]</span>
-<span class="ansi-green-intense-fg ansi-bold">   1735</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
-<span class="ansi-green-fg">-&gt; 1736</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_impl</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/module.py:1747</span>, in <span class="ansi-cyan-fg">Module._call_impl</span><span class="ansi-blue-fg">(self, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1742</span> <span style="color: rgb(95,135,135)"># If we don't have any hooks, we want to skip the rest of the logic in</span>
-<span class="ansi-green-intense-fg ansi-bold">   1743</span> <span style="color: rgb(95,135,135)"># this function, and just call forward.</span>
-<span class="ansi-green-intense-fg ansi-bold">   1744</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> (<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_forward_pre_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1745</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_pre_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_backward_hooks
-<span class="ansi-green-intense-fg ansi-bold">   1746</span>         <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_hooks <span class="ansi-bold" style="color: rgb(175,0,255)">or</span> _global_forward_pre_hooks):
-<span class="ansi-green-fg">-&gt; 1747</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">forward_call</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1749</span> result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-intense-fg ansi-bold">   1750</span> called_always_called_hooks <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">set</span>()
-
-File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/nn/modules/linear.py:125</span>, in <span class="ansi-cyan-fg">Linear.forward</span><span class="ansi-blue-fg">(self, input)</span>
-<span class="ansi-green-intense-fg ansi-bold">    124</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span><span style="color: rgb(188,188,188)"> </span><span style="color: rgb(0,0,255)">forward</span>(<span style="color: rgb(0,135,0)">self</span>, <span style="color: rgb(0,135,0)">input</span>: Tensor) <span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">&gt;</span> Tensor:
-<span class="ansi-green-fg">--&gt; 125</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">F</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">linear</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">input</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">weight</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">bias</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
 </div>
 </div>
 </div>
@@ -8402,7 +7974,7 @@ File <span class="ansi-green-fg">/usr/local/lib/python3.11/site-packages/torch/n
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">save_embeddings</span><span class="p">(</span><span class="n">emb_dict</span><span class="p">:</span><span class="nb">dict</span> <span class="p">,</span> <span class="n">out_path</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
