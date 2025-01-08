@@ -36,6 +36,18 @@ To stop run: `docker compose stop`
 To stop and remove containers: `docker compose down`
 
 
+#### Working VM
+1. Once you have a VM, download docker in it
+    - (e.g., [apt install](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) via ssh) 
+2. Move needed files onto VM (e.g., via `scp`)
+    - notebooks and data folders
+    - Dockerfile, docker-compose.yml
+    - requirements.txt
+3. Then run `docker compose up --build -d`
+4. Open JupyterLab locally via the VMs IP address e.g. `1.2.3.4:8888`
+    Note: may have to expose port via the VM's network security group
+5. **Remember to stop the VM container once you are done**
+
 ## References
 ----
 1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio
