@@ -39,14 +39,36 @@ To stop and remove containers: `docker compose down`
 #### Working VM
 1. Once you have a VM, download docker in it
     - (e.g., [apt install](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) via ssh) 
-2. Move needed files onto VM (e.g., via `scp`)
+    - e.g. in VM shell run below
+        ```
+        # Add Docker's official GPG key:
+        sudo apt-get update
+        sudo apt-get install ca-certificates curl
+        sudo install -m 0755 -d /etc/apt/keyrings
+        sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+        sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+        # Add the repository to Apt sources:
+        echo \
+        "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+        $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+        sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+        sudo apt-get update
+        
+        sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+        ```
+2. Clone this repo into the VM or to keep things slim you can move only the below needed files onto VM (e.g., via `scp`)
     - notebooks and data folders
     - Dockerfile, docker-compose.yml
     - requirements.txt
-3. Then run `docker compose up --build -d`
-4. Open JupyterLab locally via the VMs IP address e.g. `1.2.3.4:8888`
-    Note: may have to expose port via the VM's network security group
-5. **Remember to stop the VM container once you are done**
+3. Then run `docker compose up --build -d` 
+    - if you encounter permission denied you may need to run the above command with elevated permissions e.g. `sudo docker compose up --build -d`
+    - Note: for troubleshooting you can use `docker logs <container-name>` e.g., `docker logs jupyter`
+4. The URL to the JupyterLab will be: `<VM's IP address>:8888` e.g. `12.26.38.408:8888`
+    - Note: may have to expose port 8888 via the VM's network security group
+5. On your local device, open a browser of your choosing. In the address bar input the URL to JupyterLab. And you should be good to go :) 
+6. **Remember to stop the VM container once you are done**
+
 
 ## References
 ----
