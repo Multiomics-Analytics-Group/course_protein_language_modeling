@@ -157,6 +157,9 @@ To stop and remove containers: `docker compose down`
 
 42. [Exploiting pretrained biochemical language models for targeted drug design](https://academic.oup.com/bioinformatics/article/38/Supplement_2/ii155/6702010) Gökçe Uludoğan, Elif Ozkirimli, Kutlu O Ulgen, Nilgün Karalı, Arzucan Özgür
 
+43. [xTrimoPGLM: unified 100-billion-parameter pretrained transformer for deciphering the language of proteins](https://www.nature.com/articles/s41592-025-02636-z) Bo Chen, Xingyi Cheng, Pan Li, Yangli-ao Geng, Jing Gong, Shen Li, Zhilei Bei, Xu Tan, Boyan Wang, Xin Zeng, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song
+
+44. [PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks](https://www.nature.com/articles/s41592-025-02656-9) Fred Zhangzhi Peng, Chentong Wang, Tong Chen, Benjamin Schussheim, Sophia Vincoff, Pranam Chatterjee
 
 ## Other Resources
 ----
