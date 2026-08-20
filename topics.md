@@ -41,4 +41,4 @@
     
 **10. Limitations**
    
-   Addressing the limitations associated with protein language modeling, potential biases or shortcomings of computational methods.
+   Addressing the limitations associated with protein language modeling, potential biases or shortcomings of computational methods, and the fact that these models are largely black boxes whose internal representations are hard to verify or trust. See the [Mechanistic Interpretability Notebook](notebooks/interpretability.ipynb) for a hands-on look at using Sparse Autoencoders to open this black box.
